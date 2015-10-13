@@ -1,0 +1,25 @@
+<!--星级评分条-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+               android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+<ImageView
+    android:layout_width="fill_parent"
+    android:layout_height="540px"
+    android:id="@+id/image"
+    android:src="@drawable/meinv"
+    />
+<!--定义一个星级评分条-->
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rating"
+        android:numStars="5"
+        android:max="255"
+        android:progress="255"
+        android:stepSize="0.5"
+        />
+
+</LinearLayout>
